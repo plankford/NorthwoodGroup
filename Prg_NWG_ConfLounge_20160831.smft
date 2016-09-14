@@ -1,0 +1,13 @@
+<Device Model="DMPS3-300-C.">
+   <Network Type="Cresnet" Id="06">
+      <Device Model="C2N-IO" DeviceId="A5"/>
+   </Network>
+   <Network Type="Ethernet" Id="07">
+      <Device Model="CEN-GWEXER" DeviceId="06">
+         <Network Type="RF">
+            <Device Model="TST-902 (EX)" DeviceId="03" Name="TST-902 (EX) Conf"/>
+            <Device Model="TST-902 (EX)" DeviceId="0D" Name="TST-902 (EX) Lounge"/>
+         </Network>
+      </Device>
+   </Network>
+</Device>
